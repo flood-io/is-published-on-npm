@@ -1,6 +1,6 @@
 # flood-io/is-published-on-npm
 
-[![Test Workflow Status](https://github.com/flood-io/is-published-on-npm/workflows/test/badge.svg)](https://github.com/flood-io/is-published-on-npm/actions)
+[![Test Workflow Status](https://github.com/flood-io/is-published-on-npm/workflows/Test/badge.svg)](https://github.com/flood-io/is-published-on-npm/actions)
 
 This GitHub Action checks if a repositories package version as defined in `package.json` is published on NPM and sets outputs accordingly.
 

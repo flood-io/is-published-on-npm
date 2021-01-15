@@ -1,8 +1,8 @@
 {
-  "name": "typescript-action",
-  "version": "0.0.0",
+  "name": "@flood-io/is-published-on-npm",
+  "version": "1.0.0",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "A GitHub Action to check if the current repositories package is published on NPM.",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -13,7 +13,7 @@
     "test": "jest",
     "all": "npm run build && npm run format && npm run lint && npm run package && npm test"
   },
-  "repository": "git@github.com/Nicktho/is-published-on-npm",
+  "repository": "git@github.com/flood-io/is-published-on-npm",
   "keywords": [
     "actions",
     "node",
