@@ -1,6 +1,6 @@
-name: 'build-test'
+name: 'Test'
 on:
-  pull-request:
+  pull_request:
   push:
     branches:
       - master
