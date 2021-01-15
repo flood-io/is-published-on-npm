@@ -1,6 +1,9 @@
 name: Is Published On NPM
 description: Checks if the NPM version in package.json is published on NPM.
-author: Nick Matenaar
+author: flood-io
+branding:
+  icon: package
+  color: red
 inputs:
   dir:
     description: Directory containing package.json to check
