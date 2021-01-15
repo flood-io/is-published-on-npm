@@ -1,0 +1,15 @@
+name: Is Published On NPM
+description: Checks if the NPM version in package.json is published on NPM.
+author: Nick Matenaar
+inputs:
+  dir:
+    description: Directory containing package.json to check
+    default: ./
+outputs:
+  published:
+    description: Boolean whether version is published or not
+  version:
+    description: The version in package.json
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
